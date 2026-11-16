@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4F7F2"/><stop offset="1" stop-color="#EAF1EB"/></linearGradient>
+  <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#176B52"/><stop offset="1" stop-color="#2B9871"/></linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#245B83"/><stop offset="1" stop-color="#4B91B5"/></linearGradient>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#17352B" flood-opacity=".10"/></filter>
+  <style>
+    .font{font-family:Inter,Arial,sans-serif}
+    .title{font:700 42px Inter,Arial,sans-serif;fill:#17352B}
+    .sub{font:400 17px Inter,Arial,sans-serif;fill:#5D7168}
+    .section{font:700 17px Inter,Arial,sans-serif;fill:#17352B;letter-spacing:.5px}
+    .body{font:400 15px Inter,Arial,sans-serif;fill:#33483F}
+    .small{font:400 13px Inter,Arial,sans-serif;fill:#63766D}
+    .name{font:700 28px Inter,Arial,sans-serif;fill:#17352B}
+    .role{font:600 15px Inter,Arial,sans-serif;fill:#2B765C}
+    .label{font:700 12px Inter,Arial,sans-serif;fill:#668075;letter-spacing:1px}
+    .white{fill:#FFFFFF}
+  </style>
+</defs>
+<rect width="1600" height="1200" fill="url(#bg)"/>
+<!-- header -->
+<rect x="0" y="0" width="1600" height="178" fill="#FFFFFF"/>
+<rect x="70" y="48" width="9" height="88" rx="4" fill="#2B9871"/>
+<text x="105" y="79" class="label">UI / UX DESIGN • ASSIGNMENT 06</text>
+<text x="105" y="126" class="title">USER PERSONAS</text>
+<text x="105" y="155" class="sub">AI Nutrition Intelligence System  |  Understanding the people behind healthier decisions</text>
+<rect x="1270" y="55" width="250" height="68" rx="16" fill="#EAF4ED"/>
+<text x="1395" y="82" text-anchor="middle" class="label">PRODUCT</text>
+<text x="1395" y="105" text-anchor="middle" class="font" font-size="17" font-weight="700" fill="#21664D">AI NUTRITION AI</text>
+<!-- persona cards -->
+<rect x="65" y="210" width="710" height="915" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+<rect x="825" y="210" width="710" height="915" rx="24" fill="#FFFFFF" filter="url(#shadow)"/>
+<path d="M89 210 H751 Q775 210 775 234 V390 H65 V234 Q65 210 89 210Z" fill="#E9F4ED"/>
+<path d="M849 210 H1511 Q1535 210 1535 234 V390 H825 V234 Q825 210 849 210Z" fill="#EAF1F7"/>
+<!-- avatars left -->
+<circle cx="165" cy="298" r="59" fill="#C8E4D2"/>
+<circle cx="165" cy="281" r="25" fill="#8D5D43"/>
+<path d="M119 349 Q124 306 165 306 Q206 306 211 349Z" fill="#2B765C"/>
+<path d="M140 267 Q143 230 176 238 Q198 243 191 273 Q177 255 157 263Z" fill="#263B31"/>
+<circle cx="155" cy="283" r="3" fill="#263B31"/><circle cx="176" cy="283" r="3" fill="#263B31"/>
+<path d="M158 296 Q165 301 173 296" stroke="#7C4636" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<text x="250" y="263" class="label">PERSONA 01 • PRIMARY USER</text>
+<text x="250" y="303" class="name">Riya Sharma</text>
+<text x="250" y="331" class="role">The Health-conscious Student</text>
+<text x="250" y="359" class="small">21 years  •  Student  •  Pune, India</text>
+<rect x="250" y="370" width="135" height="28" rx="14" fill="#D6EBDD"/>
+<text x="317" y="389" text-anchor="middle" class="font" font-size="12" font-weight="700" fill="#21664D">TECH-SAVVY</text>
+<rect x="405" y="370" width="150" height="28" rx="14" fill="#D6EBDD"/>
+<text x="480" y="389" text-anchor="middle" class="font" font-size="12" font-weight="700" fill="#21664D">BUDGET-AWARE</text>
+<!-- avatars right -->
+<circle cx="925" cy="298" r="59" fill="#D4E5F0"/>
+<circle cx="925" cy="281" r="25" fill="#B87952"/>
+<path d="M879 349 Q884 306 925 306 Q966 306 971 349Z" fill="#315D7D"/>
+<path d="M899 267 Q905 235 937 240 Q956 244 951 270 Q935 255 914 264Z" fill="#34302D"/>
+<circle cx="915" cy="283" r="3" fill="#263B31"/><circle cx="936" cy="283" r="3" fill="#263B31"/>
+<path d="M918 296 Q925 301 933 296" stroke="#7C4636" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<text x="1010" y="263" class="label">PERSONA 02 • SECONDARY USER</text>
+<text x="1010" y="303" class="name">Amit Deshmukh</text>
+<text x="1010" y="331" class="role" fill="#315D7D">The Busy Working Professional</text>
+<text x="1010" y="359" class="small">34 years  •  IT Professional  •  Pune, India</text>
+<rect x="1010" y="370" width="145" height="28" rx="14" fill="#DCEAF3"/>
+<text x="1082" y="389" text-anchor="middle" class="font" font-size="12" font-weight="700" fill="#315D7D">TIME-POOR</text>
+<rect x="1175" y="370" width="160" height="28" rx="14" fill="#DCEAF3"/>
+<text x="1255" y="389" text-anchor="middle" class="font" font-size="12" font-weight="700" fill="#315D7D">GOAL-ORIENTED</text>
+<!-- bio -->
+<text x="95" y="435" class="section">BIO / BACKGROUND</text>
+<text x="95" y="464" class="body">A college student balancing classes, assignments and a limited</text>
+<text x="95" y="486" class="body">budget. Riya wants to eat better but finds nutrition labels and</text>
+<text x="95" y="508" class="body">daily nutrient requirements confusing. She prefers simple,</text>
+<text x="95" y="530" class="body">affordable vegetarian meals that fit her routine.</text>
+<text x="855" y="435" class="section">BIO / BACKGROUND</text>
+<text x="855" y="464" class="body">Amit works long hours and often relies on takeaway food or</text>
+<text x="855" y="486" class="body">irregular meals. He wants to improve his energy and eating</text>
+<text x="855" y="508" class="body">habits without spending too much time planning. He values</text>
+<text x="855" y="530" class="body">quick recommendations and clear progress tracking.</text>
+<!-- quote -->
+<rect x="95" y="552" width="650" height="66" rx="13" fill="#F1F7F2"/>
+<text x="117" y="580" class="font" font-size="15" font-style="italic" fill="#315B49">“I want to know whether my everyday food is actually</text>
+<text x="117" y="602" class="font" font-size="15" font-style="italic" fill="#315B49">giving me the nutrients I need.”</text>
+<rect x="855" y="552" width="650" height="66" rx="13" fill="#F1F5F8"/>
+<text x="877" y="580" class="font" font-size="15" font-style="italic" fill="#315D7D">“Give me practical food suggestions that fit into</text>
+<text x="877" y="602" class="font" font-size="15" font-style="italic" fill="#315D7D">my busy workday.”</text>
+<!-- four info blocks left/right -->
+<text x="95" y="657" class="section">GOALS & MOTIVATIONS</text>
+<text x="95" y="685" class="body">• Understand daily nutrient intake</text>
+<text x="95" y="709" class="body">• Find affordable, healthy vegetarian foods</text>
+<text x="95" y="733" class="body">• Build consistent eating habits</text>
+<text x="855" y="657" class="section">GOALS & MOTIVATIONS</text>
+<text x="855" y="685" class="body">• Maintain energy throughout the day</text>
+<text x="855" y="709" class="body">• Get quick, personalized meal suggestions</text>
+<text x="855" y="733" class="body">• Monitor progress with minimal effort</text>
+<line x1="95" y1="758" x2="745" y2="758" stroke="#E3EBE5"/>
+<line x1="855" y1="758" x2="1505" y2="758" stroke="#E3EAF0"/>
+<text x="95" y="794" class="section">PAIN POINTS / FRUSTRATIONS</text>
+<text x="95" y="822" class="body">• Confusing nutrition information on food labels</text>
+<text x="95" y="846" class="body">• Healthy options can seem expensive or time-consuming</text>
+<text x="95" y="870" class="body">• Hard to track vitamins and minerals consistently</text>
+<text x="855" y="794" class="section">PAIN POINTS / FRUSTRATIONS</text>
+<text x="855" y="822" class="body">• Irregular meals due to a demanding schedule</text>
+<text x="855" y="846" class="body">• Too many apps and complicated tracking steps</text>
+<text x="855" y="870" class="body">• Generic advice does not fit his daily routine</text>
+<line x1="95" y1="895" x2="745" y2="895" stroke="#E3EBE5"/>
+<line x1="855" y1="895" x2="1505" y2="895" stroke="#E3EAF0"/>
+<text x="95" y="930" class="section">NEEDS & EXPECTATIONS</text>
+<text x="95" y="958" class="body">• Simple food logging and nutrient summaries</text>
+<text x="95" y="982" class="body">• Low-cost Indian meal recommendations</text>
+<text x="95" y="1006" class="body">• Clear, non-technical explanations and reminders</text>
+<text x="855" y="930" class="section">NEEDS & EXPECTATIONS</text>
+<text x="855" y="958" class="body">• Fast meal logging, preferably in a few taps</text>
+<text x="855" y="982" class="body">• Quick meal options based on time and preferences</text>
+<text x="855" y="1006" class="body">• Weekly progress view and actionable insights</text>
+<!-- scenarios -->
+<rect x="95" y="1030" width="650" height="70" rx="13" fill="#EAF4ED"/>
+<text x="115" y="1055" class="label">REAL-LIFE SCENARIO</text>
+<text x="115" y="1080" class="body">After class, Riya logs lunch and checks whether her meals</text>
+<text x="115" y="1099" class="body">meet her nutrient goals; the app suggests affordable alternatives.</text>
+<rect x="855" y="1030" width="650" height="70" rx="13" fill="#EAF1F7"/>
+<text x="875" y="1055" class="label">REAL-LIFE SCENARIO</text>
+<text x="875" y="1080" class="body">During a work break, Amit logs a meal and gets a quick dinner</text>
+<text x="875" y="1099" class="body">suggestion that fits his schedule and dietary preferences.</text>
+<!-- footer -->
+<text x="70" y="1165" class="small">DESIGN NOTE: Personas are illustrative assumptions for this academic exercise; validate them with actual user interviews or survey data.</text>
+<text x="1530" y="1165" text-anchor="end" class="small">AI NUTRITION INTELLIGENCE SYSTEM  •  01 / 01</text>
+</svg>
